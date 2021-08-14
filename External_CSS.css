@@ -1,9 +1,9 @@
 body {
-  background-color: powderblue;
+  background-color:black; text-align: center;
 }
 h1 {
-  color: blue;
+  color:yellow;;font-size: 400%;font-family:verdana;
 }
 p {
-  color: red;
+  color:blue; border: 3px solid red;
 }
