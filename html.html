@@ -3,7 +3,42 @@
 <!---------HEAD(TITLE)------->
 <head>
     <title>HOME - Shubham Sharma</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-image: url('back_blue.jpeg');
+            border:6px solid yellow;
+        }
+
+        li {
+            float:right;
+        }
+
+            li a {
+                display: block;
+                color:red;
+                text-align:center;
+                padding:15px;
+                text-decoration: none;
+                font-size:26px;
+            }
+
+                li a:hover {
+                    background-color:white;
+                }
+    </style>
 </head>
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+</body><br>
 <!----------BODY------------->
 <body id="BackOnTop" style="background-color:black;text-align:center;"><div style="background-image:url('back_blue.jpeg'); background-attachment:fixed;background-repeat:no-repeat;background-size:cover;">
     <!------------------------------------------------------------------GIANNIS IMAGE---------------------------------------------------------------->
@@ -192,7 +227,7 @@ and everything's less worry.</b></i></pre>
     </table>
     <br><br><hr><br>
     <!-------------------------------------------------------------------ORDERED LIST--------------------------------------------------------------->
-    <h1 style="color:aqua;text-align:left;">An ordered HTML list</h1>
+    <h1 style="color:aqua;text-align:left;">An ordered HTML List</h1>
     <ol style="color:aliceblue;text-align:left;font-size:20px;">
         <li>Coffee</li>
         <li>Tea</li>
@@ -200,7 +235,7 @@ and everything's less worry.</b></i></pre>
     </ol>
     <br><hr><br>
     <!-----------------------------------------------------------------UNORDERED LIST--------------------------------------------------------------->
-    <h1 style="color:aqua;text-align:left;">An ordered HTML list</h1>
+    <h1 style="color:aqua;text-align:left;">An unordered HTML List</h1>
     <ul style="color:aliceblue;text-align:left;font-size:20px;list-style-type:circle;">
         <li>Coffee</li>
         <li>Tea</li>
@@ -215,7 +250,24 @@ and everything's less worry.</b></i></pre>
         <dt>Milk</dt>
         <dd>~white cold drink</dd>
     </dl>
-    <!-----------------------------------------------------------------BACK ON TOP------------------------------------------------------------------->
+    <br><hr><br>
+    <!------------------------------------------------------------------A NESTED LIST--------------------------------------------------------------->
+    <h1 style="color:aqua;text-align:left;">A Nested List</h1>
+    <ul style="color:aliceblue;text-align:left;font-size:20px;">
+        <li>Coffee</li>
+        <li>Tea</li>
+            <ul style="color:aliceblue;text-align:left;font-size:20px;">
+                 <li>Black Tea</li>
+                 <li>Green Tea</li>
+                     <ul style="color:aliceblue;text-align:left;font-size:20px;">
+                          <li>Lipton</li>
+                         <li>Organic India</li>
+                     </ul>
+                 <li>Both</li>
+            </ul>
+        <li>Milk</li>
+    </ul>
+    <!-----------------------------------------------------------------BACK ON TOP------------------------------------------------------------------>
     <a href="#BackOnTop"><b style="color:red; float:right; font-size:30px; border:3px solid red; margin:10px; background-color:darkgray;">Click here to get back on top ↑ </b></a>
     <br><br><br><hr>
     <!----------BODY------------->
