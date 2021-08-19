@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en-us">
 <!---------HEAD(TITLE)------->
 <head>
@@ -189,7 +190,7 @@ and everything's less worry.</b></i></pre>
         </table>
         <br><br><hr><br>
         <!-------------------------------------------------------------------ORDERED LIST--------------------------------------------------------------->
-        <h1 style="color:aqua;text-align:left;">An ordered HTML List</h1>
+        <h1 style="color:aqua;text-align:left;"><ins>An ordered HTML List</ins></h1>
         <ol style="color:aliceblue;text-align:left;font-size:20px;">
             <li>Coffee</li>
             <li>Tea</li>
@@ -215,27 +216,47 @@ and everything's less worry.</b></i></pre>
             <li>Tea</li>
             <li>Milk</li>
         </ol>
-        <ol style="color:aliceblue;text-align:left;font-size:20px;" type="1">
+        <ol style="color:aliceblue;text-align:left;font-size:20px;" start="30">
             <li>Coffee</li>
             <li>Tea</li>
             <li>Milk</li>
         </ol>
-        <ol style="color:aliceblue;text-align:left;font-size:20px;" start="30">
+        <ol style="color:aliceblue;text-align:left;font-size:20px;" type="1">
             <li>Coffee</li>
             <li>Tea</li>
             <li>Milk</li>
         </ol>
         <br><hr><br>
         <!-----------------------------------------------------------------UNORDERED LIST--------------------------------------------------------------->
-        <h1 style="color:aqua;text-align:left;">An unordered HTML List</h1>
+        <h1 style="color:aqua;text-align:left;"><ins>An unordered HTML List</ins></h1>
+        <ul style="color:aliceblue;text-align:left;font-size:20px;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
         <ul style="color:aliceblue;text-align:left;font-size:20px;list-style-type:circle;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <ul style="color:aliceblue;text-align:left;font-size:20px;list-style-type:square;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <ul style="color:aliceblue;text-align:left;font-size:20px;list-style-type:none;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <ul style="color:aliceblue;text-align:left;font-size:20px;list-style-type:disc;">
             <li>Coffee</li>
             <li>Tea</li>
             <li>Milk</li>
         </ul>
         <br><hr><br>
         <!----------------------------------------------------------------DESCRIPTION LIST-------------------------------------------------------------->
-        <h1 style="color:aqua;text-align:left;">A Description List</h1>
+        <h1 style="color:aqua;text-align:left;"><ins>A Description List</ins></h1>
         <dl style="color:aliceblue;text-align:left;font-size:20px;">
             <dt>Coffee</dt>
             <dd>~black hot drink</dd>
@@ -244,7 +265,7 @@ and everything's less worry.</b></i></pre>
         </dl>
         <br><hr><br>
         <!------------------------------------------------------------------A NESTED LIST--------------------------------------------------------------->
-        <h1 style="color:aqua;text-align:left;">A Nested List (using unordered list)</h1>
+        <h1 style="color:aqua;text-align:left;"><ins>A Nested List (using unordered list)</ins></h1>
         <ul style="color:aliceblue;text-align:left;font-size:20px;">
             <li>Coffee</li>
             <li>Tea</li>
@@ -260,30 +281,165 @@ and everything's less worry.</b></i></pre>
             <li>Milk</li>
         </ul>
         <br><br>
-        <h1 style="color:aqua;text-align:left;">A Nested List (using ordered list)</h1>
+        <h1 style="color:aqua;text-align:left;"><ins>A Nested List (using ordered list)</ins></h1>
         <ol style="color:aliceblue;text-align:left;font-size:20px;" type="1">
             <li>Coffee</li>
             <li>Tea</li>
-                <ol type="a">
-                     <li>Black Tea</li>
-                     <li>Green Tea</li>
-                          <ol type="i">
-                              <li>Lipton</li>
-                              <li>Oraganic India</li>
-                          </ol>
-                     <li>Both</li>
+            <ol type="a">
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+                <ol type="i">
+                    <li>Lipton</li>
+                    <li>Oraganic India</li>
                 </ol>
+                <li>Both</li>
+            </ol>
             <li>Milk</li>
         </ol>
 
 
-            <!-----------------------------------------------------------------BACK ON TOP------------------------------------------------------------------>
-            <a href="#BackOnTop"><b style="color:red; float:right; font-size:30px; border:3px solid red; margin:10px; background-color:darkgray;">Click here to get back on top ↑ </b></a>
+        <!-----------------------------------------------------------------BACK ON TOP------------------------------------------------------------------>
+        <a href="#BackOnTop"><b style="color:red; float:right; font-size:30px; border:3px solid red; margin:10px; background-color:darkgray;">Click here to get back on top ↑ </b></a>
+        <br><br><br><hr><br>
+        <!-------------------------------------------------------------BLOCK LEVEL ELEMENTS------------------------------------------------------------->
+        <ol style="color:skyblue;font-size:35px;" type="1">
+            <ins>BLOCK LEVEL ELEMENTS</ins>
             <br>
             <br>
+            <li style="color:lightgreen;text-align:left;">div element</li>
+            <div style="background-color:ivory;color:brown; font-size:30px;text-align:left;"><b>HELLO WORLD</b></div>
+            <p style="color:aliceblue; font-size:18px;text-align:left;">My name is Shubham Sharma, i am 21 years old.</p>
+            <li style="color:lightgreen;text-align:left;">address element</li>
+            <address style="background-color:ivory;color:brown; font-size:30px;text-align:left;"><b>HELLO WORLD</b></address>
+            <p style="color:aliceblue; font-size:18px;text-align:left;">My name is Shubham Sharma, i am 21 years old.</p>
+            <li style="color:lightgreen;text-align:left;">article element</li>
             <br>
-            <hr>
-            <!----------BODY------------->
+            <li style="color:lightgreen;text-align:left;">aside element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">blockquote element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">canvas element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;"> element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">dd element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">dl element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">dt element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">fieldset element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">figcaption element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">figure element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">footer element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">form element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">h1-h6 element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">header element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">hr element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">li element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">main element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">nav element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">noscript element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">ol element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">pre element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">p element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">section element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">table element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">tfoot element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">ul element</li>
+            <br>
+            <li style="color:lightgreen;text-align:left;">video element</li>
+            <br>
+        </ol>
+        <br><br><br><hr><br>
+        <!-------------------------------------------------------------INLINE LEVEL ELEMENTS------------------------------------------------------------>
+        <ol style="color:skyblue;font-size:35px;" type="1">
+                            <ins>INLINE LEVEL ELEMENTS</ins>
+                            <br>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">span element</li>
+                            <p style="color:aliceblue; font-size:18px;text-align:left;">My name is <span style="border:3px solid red;">Shubham Sharma</span>, i am 21 years old.</p>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">b element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">acronym element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">abbr element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">bdo element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">big element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">br element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">button element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">cite element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">code element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">dfn element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">em element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">i element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">img element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">input element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">kbd element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">label element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">map element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">object element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">output element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">q element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">samp element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">script element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">select element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">small element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">strong element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">sub element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">sup element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">text area element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">time element</li>
+                            <br>
+                            <li style="color:lightgreen;text-align:left;">tt element</li>
+                            <br>
+                            
+<!----------BODY------------->
 </body>
 </html>
 
