@@ -508,13 +508,71 @@ and everything's less worry.</b></i></pre>
         </div>
         <br><hr><br>
         <!----------------------------------------------------------------------IFRAME------------------------------------------------------------------>
-        <h1 style="color:yellow;font-size:40px;"><ins>IFRAME WITH A LINK</ins></h1>
-        <iframe src="List-Box.html" height="350" width="1000" title="HOME | SHUBHAM SHARMA" name="github"></iframe>
-        <p><a href="https://github.com/shubham2o" target="github"><b>Github</b></a></p>
+        <h1 style="color:yellow;font-size:40px;"><ins>I-FRAME WITH A LINK</ins></h1>
+        <iframe src="List-Box.html" height="450" width="1200" title="HOME | SHUBHAM SHARMA" name="github"></iframe>
+        <p style="font-size:35px;"><a href="https://github.com/shubham2o" target="github"><b>Github</b></a></p>
         <br><hr><br>
-        <h1 style="color:yellow;font-size:40px;"><ins>IFRAME</ins></h1>
+        <h1 style="color:yellow;font-size:40px;"><ins>I-FRAME</ins></h1>
         <iframe src="html.html" height="450" width="1200" title="HOME | SHUBHAM SHARMA" style="border:2px dotted red;">HOME | SHUBHAM SHARMA</iframe>
-        <br><hr><br>
+        <br><br><br><hr>
+        <!--------------------------------------------------------------------JAVASCRIPT---------------------------------------------------------------->
+        <h1 style="color:yellow;font-size:40px;"><ins>JAVASCRIPT</ins></h1>
+        <button type="button"
+                onclick="document.getElementById('demo').innerHTML = Date()"
+                style="color:black;background-color:white;padding:25px;border:4px solid black;font-size:23px;">
+            <b>Click to display Date and Time</b>
+        </button>
+        <p id="demo" style="color:white;font-size:23px;"></p>
+        <br>
+        <!---------------------------NAME------------------------------>
+        <script>
+            function myfunction() {
+                document.getElementById("js").innerHTML = "My name is Shubham Sharma.";
+            }
+        </script>
+        <button type="button"
+                onclick="myfunction()"
+                style="color:black;background-color:white;padding:25px;border:4px solid black;font-size:23px;">
+            <b>Click to know my name</b>
+        </button>
+        <p id="js" style="color:white;font-size:23px;">Hello!</p>
+        <br>
+        <!--------------------------STYLE------------------------------>
+        <script>
+            function js() {
+                document.getElementById("id").style.fontSize = "23px";
+                document.getElementById("id").style.backgroundColor = "yellow";
+                document.getElementById("id").style.color = "black";
+            }
+        </script>
+        <button type="button"
+                onclick="js()"
+                style="color:black;background-color:white;padding:25px;border:4px solid black;font-size:23px;">
+            <b>Click to change the style</b>
+        </button>
+        <p id="id" style="color:white;font-size:15px;">Javascript can change the style of an html element.</p>
+        <br>
+        <!---------------------------BULB------------------------------>
+        <script>
+            function light(sw) {
+                var pic;
+                if (sw == 0) {
+                    pic = "pic_bulboff.gif"
+                } else {
+                    pic = "pic_bulbon.gif"
+                }
+                document.getElementById('myImage').src = pic;
+            }
+        </script>
+        <img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+        <p>
+            <button type="button" onclick="light(1)" style="background-color:white;color:black;padding:18px;font-size:20px;"><b>Light On</b></button>
+            <button type="button" onclick="light(0)" style="background-color:white;color:black;padding:18px;font-size:20px;"><b>Light Off</b></button>
+        </p>
+        <br>
+        <!--------------------------NO SCRIPT--------------------------->
+        <noscript style="color:red;font-size:20px;"><ins>Sorry, your browser does not support JavaScript!</ins></noscript>
+        <br><hr>
         <!----------BODY------------->
 </body>
 </html>
