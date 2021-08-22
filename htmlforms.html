@@ -74,7 +74,17 @@
     <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
     <br><hr><br>
     <!----------------------------------------------------
-     ----------------SUBMIT BUTTON------------------------
+     -----------------AUTOCOMPLETE------------------------
      ---------------------------------------------------->
+    <h2>Autocomplete Attribute</h2>
+    <form action="/action_page.php" target="_blank" method="get" autocomplete="on">
+        <label for="firstname">First name:</label><br>
+        <input type="text" id="firstname" value="" name="firstname"><br><br>
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" value="" name="lastname"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+    <br><hr><br>
 </body>
 </html>
