@@ -62,8 +62,9 @@
     <!----------------------------------------------------
      ----------------SUBMIT BUTTON------------------------
      ---------------------------------------------------->
+    <iframe name="submit" width="75%" style="float:right;"></iframe>
     <h2>Submit Button</h2>
-    <form action="/action_page.php">
+    <form action="/action_page.php" target="submit" method="get">
         <label for="firstname">First name:</label><br>
         <input type="text" id="firstname" value="" name="firstname"><br><br>
         <label for="lastname">Last Name:</label><br>
@@ -72,6 +73,8 @@
     </form>
     <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
     <br><hr><br>
-
+    <!----------------------------------------------------
+     ----------------SUBMIT BUTTON------------------------
+     ---------------------------------------------------->
 </body>
 </html>
