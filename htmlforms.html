@@ -364,12 +364,26 @@
     ------------------INPUT TYPE RANGE--------------------
     ----------------------------------------------------->
     <h2>Range Field</h2>
-    <p>Depending on browser support: 
-    The input type "range" can be displayed as a slider control.</p>
+    <p>
+        Depending on browser support:
+        The input type "range" can be displayed as a slider control.
+    </p>
     <form action="action_page.php">
         <label for="vlm">Volume (between 0 and 50):</label>
         <input type="range" id="vlm" name="Volume" min="0" max="50"><br><br>
         <input type="submit" name="Submit">
+    </form>
+    <br><hr><br>
+    <!----------------------------------------------------
+    -----------------INPUT TYPE SEARCH--------------------
+    ----------------------------------------------------->
+    <h2>Search Field</h2>
+    <p>The <strong>input type="search"</strong> is used for search fields 
+    (behaves like a regular text field):</p>
+    <form action="action_pag.php">
+        <label for="srch">Search Google:</label>
+        <input type="search" id="srch" name="Search Google">
+        <input type="submit" value="Submit">
     </form>
     <br><hr><br>
 </body>
