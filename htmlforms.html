@@ -130,8 +130,10 @@
     --------------FIELDSET & LEGEND ELEMENT---------------
     ----------------------------------------------------->
     <h2>Grouping Form Data with Fieldset</h2>
-    <p>The fieldset element is used to group related data in a form,
-    and the legend element defines a caption for the fieldset element.</p>
+    <p>
+        The fieldset element is used to group related data in a form,
+        and the legend element defines a caption for the fieldset element.
+    </p>
     <form action="/action_page.php">
         <fieldset>
             <legend>Personalia :</legend>
@@ -141,6 +143,36 @@
             <input type="text" id="Lname" name="Last name" value=""><br><br>
             <input type="submit">
         </fieldset>
+    </form>
+    <br><hr><br>
+    <!----------------------------------------------------
+    ----------------------DATA ELEMENT--------------------
+    ----------------------------------------------------->
+    <h2>The datalist Element</h2>
+    <p>The datalist element specifies a list of pre-defined options for an input element.</p><br>
+    <form action="/action_page.php">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Google Chrome">
+            <option value="Mozilla Firefox">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+    <p><strong>Note:</strong> The datalist tag is not supported in Safari prior version 12.1</p>
+    <br><hr><br>
+    <!----------------------------------------------------
+    --------------------OUTPUT ELEMENT--------------------
+    ----------------------------------------------------->
+    <h2>The output Element</h2>
+    <p>The output element represents the result of a calculation.</p>
+    <form action="/action_page.php" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
+        <input type="number" value="0" id="a"><br><br>
+        <input type="number" value="0" id="b"><br><br>
+        =
+        <output name="x" for="a b"></output>
     </form>
     <br><hr><br>
 </body>
