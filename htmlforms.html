@@ -87,7 +87,7 @@
     <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
     <br><hr><br>
     <!----------------------------------------------------
-     ---------------SELECT ELEMENT------------------------
+     -----------------SELECT ELEMENT----------------------
      ---------------------------------------------------->
     <h2>Select Element</h2>
     <p>The select element defines a drop-down list:</p>
@@ -112,9 +112,36 @@
     <h2>Textarea</h2>
     <p>The textarea element defines a multi-line input field.</p>
     <form action="/action_page.php">
-        <textarea name="message" rows="10" cols="30" style="width:400px;height:200px;">The cat was playing in the garden.</textarea>
+        <textarea name="message" rows="10" cols="30" style="width:330px;height:130px;">The cat was playing in the garden.</textarea>
         <br><br>
         <input type="submit">
     </form>
+    <br><hr><br>
+    <!----------------------------------------------------
+    ------------------BUTTON ELEMENT----------------------
+    ----------------------------------------------------->
+    <h2>The button Element</h2>
+    <form>
+        <button type="button" onclick="alert('Hello World!')">Click Me! (using Button type attri.)</button><br><br>
+        <input type="button" onclick="alert('Hello World!')" value="Click Me! (using Input type attri.)">
+    </form>
+    <br><hr><br>
+    <!----------------------------------------------------
+    --------------FIELDSET & LEGEND ELEMENT---------------
+    ----------------------------------------------------->
+    <h2>Grouping Form Data with Fieldset</h2>
+    <p>The fieldset element is used to group related data in a form,
+    and the legend element defines a caption for the fieldset element.</p>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia :</legend>
+            <label for="Fname">First name:</label><br>
+            <input type="text" id="Fname" name="First name" value=""><br><br>
+            <label for="Lname">Last name:</label><br>
+            <input type="text" id="Lname" name="Last name" value=""><br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+    <br><hr><br>
 </body>
 </html>
