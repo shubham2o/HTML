@@ -318,5 +318,18 @@
         <input type="submit" value="Submit">
     </form>
     <br><hr><br>
+    <!----------------------------------------------------
+    ------------------INPUT TYPE HIDDEN-------------------
+    ----------------------------------------------------->
+    <h1>A Hidden Field (look in source code)</h1>
+    <form action="action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="First name">
+        <input type="hidden" id="custId" name="custId" value="8013"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p><strong>Note:</strong> The hidden field is not shown to the user, 
+    but the data is sent when the form is submitted.</p>
+    <br><hr><br>
 </body>
 </html>
