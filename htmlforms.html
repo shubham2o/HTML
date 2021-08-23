@@ -94,30 +94,30 @@
     <form action="/action_page.php" target="_blank">
         <label for="cars">Choose a car:</label>
         <select id="cars" name="cars" size="4" multiple>
-        <optgroup label="A">
-            <option value="">volvo</option>
-        </optgroup>
-        <optgroup label="B">
-            <option value="">rolls royce</option>
-        </optgroup>
-        <optgroup label="C">
-            <option value="">audi</option>
-        </optgroup>
-        <optgroup label="D">
-            <option value="" selected>bmw</option>
-        </optgroup>
-        <optgroup label="E">
-            <option value="">mercedes</option>
-        </optgroup>
-        <optgroup label="F">
-            <option value="">jeep</option>
-        </optgroup>
-        <optgroup label="G">
-            <option value="">jaguar</option>
-        </optgroup>
-        <optgroup label="H">
-            <option value="">mustang</option>
-        </optgroup>
+            <optgroup label="A">
+                <option value="">volvo</option>
+            </optgroup>
+            <optgroup label="B">
+                <option value="">rolls royce</option>
+            </optgroup>
+            <optgroup label="C">
+                <option value="">audi</option>
+            </optgroup>
+            <optgroup label="D">
+                <option value="" selected>bmw</option>
+            </optgroup>
+            <optgroup label="E">
+                <option value="">mercedes</option>
+            </optgroup>
+            <optgroup label="F">
+                <option value="">jeep</option>
+            </optgroup>
+            <optgroup label="G">
+                <option value="">jaguar</option>
+            </optgroup>
+            <optgroup label="H">
+                <option value="">mustang</option>
+            </optgroup>
         </select><br><br>
         <input type="submit">
     </form>
@@ -151,8 +151,8 @@
         and the legend element defines a caption for the fieldset element.
     </p>
     <form action="/action_page.php">
-        <fieldset>
-            <legend>Personalia :</legend>
+        <fieldset style="background-color:navajowhite;">
+            <legend style="color:black;;">Personalia :</legend>
             <label for="Fname">First name:</label><br>
             <input type="text" id="Fname" name="First name" value=""><br><br>
             <label for="Lname">Last name:</label><br>
@@ -189,6 +189,20 @@
         <input type="number" value="0" id="b"><br><br>
         =
         <output name="x" for="a b"></output>
+    </form>
+    <br><hr><br>
+    <!----------------------------------------------------
+    -----------------INPUT TYPE PASSWORD------------------
+    ----------------------------------------------------->
+    <h2>Password Field</h2>
+    <p>The <strong>input type="password"</strong> defines a password field:</p>
+    <form action="action_page.php">
+        <label for="uname">Username:</label><br>
+        <input type="text" name="Username" id="uname"><br><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" name="Password" id="pass"><br><br>
+        <button type="submit">Submit</button><br><br>
+        <p>The characters in a password field are masked (shown as asterisks or circles.)</p>
     </form>
     <br><hr><br>
 </body>
