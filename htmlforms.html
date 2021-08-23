@@ -328,8 +328,23 @@
         <input type="hidden" id="custId" name="custId" value="8013"><br><br>
         <input type="submit" value="Submit">
     </form>
-    <p><strong>Note:</strong> The hidden field is not shown to the user, 
-    but the data is sent when the form is submitted.</p>
+    <p>
+        <strong>Note:</strong> The hidden field is not shown to the user,
+        but the data is sent when the form is submitted.
+    </p>
+    <br><hr><br>
+    <!----------------------------------------------------
+    ------------------INPUT TYPE MONTH--------------------
+    ----------------------------------------------------->
+    <h2>Month Field</h2>
+    <p>The <strong>input type="month"</strong> allows the user to select a month and year.</p>
+    <form action="action_page.php">
+        <label for="bday">Birthday (month and year):</label>
+        <input type="month" id="bday" name="Birthday (month and year)"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p><strong>Note:</strong> type="month" is not supported in Firefox, Safari, 
+    or Internet Explorer 11 (or earlier).</p>
     <br><hr><br>
 </body>
 </html>
