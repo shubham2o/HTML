@@ -64,7 +64,7 @@
      ---------------------------------------------------->
     <iframe name="submit" width="75%" style="float:right;"></iframe>
     <h2>Submit Button</h2>
-    <form action="/action_page.php" target="submit" method="get">
+    <form action="action_page.php" target="submit" method="get">
         <label for="firstname">First name:</label><br>
         <input type="text" id="firstname" value="" name="firstname"><br><br>
         <label for="lastname">Last Name:</label><br>
@@ -77,7 +77,7 @@
      -----------------AUTOCOMPLETE------------------------
      ---------------------------------------------------->
     <h2>Autocomplete Attribute</h2>
-    <form action="/action_page.php" target="_blank" method="get" autocomplete="on">
+    <form action="action_page.php" target="_blank" method="get" autocomplete="on">
         <label for="firstname">First name:</label><br>
         <input type="text" id="firstname" value="" name="firstname"><br><br>
         <label for="lastname">Last Name:</label><br>
@@ -91,7 +91,7 @@
      ---------------------------------------------------->
     <h2>Select Element</h2>
     <p>The select element defines a drop-down list:</p>
-    <form action="/action_page.php" target="_blank">
+    <form action="action_page.php" target="_blank">
         <label for="cars">Choose a car:</label>
         <select id="cars" name="cars" size="4" multiple>
             <optgroup label="A">
@@ -127,7 +127,7 @@
     ----------------------------------------------------->
     <h2>Textarea</h2>
     <p>The textarea element defines a multi-line input field.</p>
-    <form action="/action_page.php">
+    <form action="action_page.php">
         <textarea name="message" rows="10" cols="30" style="width:330px;height:130px;">The cat was playing in the garden.</textarea>
         <br><br>
         <input type="submit">
@@ -150,7 +150,7 @@
         The fieldset element is used to group related data in a form,
         and the legend element defines a caption for the fieldset element.
     </p>
-    <form action="/action_page.php">
+    <form action="action_page.php">
         <fieldset style="background-color:navajowhite;">
             <legend style="color:black;;">Personalia :</legend>
             <label for="Fname">First name:</label><br>
@@ -166,7 +166,7 @@
     ----------------------------------------------------->
     <h2>The datalist Element</h2>
     <p>The datalist element specifies a list of pre-defined options for an input element.</p><br>
-    <form action="/action_page.php">
+    <form action="action_page.php">
         <input list="browsers" name="browser">
         <datalist id="browsers">
             <option value="Internet Explorer">
@@ -184,7 +184,7 @@
     ----------------------------------------------------->
     <h2>The output Element</h2>
     <p>The output element represents the result of a calculation.</p>
-    <form action="/action_page.php" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
+    <form action="action_page.php" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
         <input type="number" value="0" id="a"><br><br>
         <input type="number" value="0" id="b"><br><br>
         =
@@ -209,18 +209,37 @@
     ------------------INPUT TYPE RESET--------------------
     ----------------------------------------------------->
     <h2>Reset Buutton</h2>
-    <p>The <strong>input type="reset"</strong> defines a reset button that resets all form values
-    to their default values:</p>
+    <p>
+        The <strong>input type="reset"</strong> defines a reset button that resets all form values
+        to their default values:
+    </p>
     <form action="action_page.php">
         <label for="Fname">First name:</label><br>
-        <input type="text" id="Fname" name="First name"><br><br>        
+        <input type="text" id="Fname" name="First name"><br><br>
         <label for="Lname">Last name:</label><br>
         <input type="text" id="Lname" name="Last name"><br><br>
         <input type="submit" value="Submit">
         <input type="reset" value="Reset"><br>
-        <p>If you change the input values and then click the "Reset" button,
-        the form-data will be reset to the default values.</p>
+        <p>
+            If you change the input values and then click the "Reset" button,
+            the form-data will be reset to the default values.
+        </p>
     </form>
+    <br><hr><br>
+    <!----------------------------------------------------
+    ------------------INPUT TYPE COLOR--------------------
+    ----------------------------------------------------->
+    <h2>Show a Color Picker</h2>
+    <p>
+        The <strong>input type="color"</strong> is used for input fields that should contain a color.
+    </p>
+    <form action="action_page.php">
+        <label for="clr">Select your favourite color:</label>
+        <input type="color" id="clr" name="Favourite Color" value="#DC143C">
+        <input type="submit">
+    </form>
+    <p><b>Note:</b> type="color" is not supported in Internet Explorer 11 or 
+    Safari 9.1 (or earlier).</p>
     <br><hr><br>
 </body>
 </html>
