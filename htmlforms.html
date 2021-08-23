@@ -343,8 +343,10 @@
         <input type="month" id="bday" name="Birthday (month and year)"><br>
         <input type="submit" value="Submit">
     </form>
-    <p><strong>Note:</strong> type="month" is not supported in Firefox, Safari, 
-    or Internet Explorer 11 (or earlier).</p>
+    <p>
+        <strong>Note:</strong> type="month" is not supported in Firefox, Safari,
+        or Internet Explorer 11 (or earlier).
+    </p>
     <br><hr><br>
     <!----------------------------------------------------
     ------------------INPUT TYPE NUMBER-------------------
@@ -355,6 +357,18 @@
     <form action="action_page.php">
         <label for="qty">Quantity (between 1 and 5):</label>
         <input type="number" id="qty" name="Quantity" min="1" max="5">
+        <input type="submit" name="Submit">
+    </form>
+    <br><hr><br>
+    <!----------------------------------------------------
+    ------------------INPUT TYPE RANGE--------------------
+    ----------------------------------------------------->
+    <h2>Range Field</h2>
+    <p>Depending on browser support: 
+    The input type "range" can be displayed as a slider control.</p>
+    <form action="action_page.php">
+        <label for="vlm">Volume (between 0 and 50):</label>
+        <input type="range" id="vlm" name="Volume" min="0" max="50"><br><br>
         <input type="submit" name="Submit">
     </form>
     <br><hr><br>
