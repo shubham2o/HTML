@@ -386,5 +386,18 @@
         <input type="submit" value="Submit">
     </form>
     <br><hr><br>
+    <!----------------------------------------------------
+    -----------------INPUT TYPE TEL-----------------------
+    ----------------------------------------------------->
+    <h2>Telephone Field</h2>
+    <p>The <strong>input type="tel"</strong> is used for input fields that 
+        should contain a telephone number:</p>
+    <form action="action_page.php">
+        <label for="pno">Enter a phone number:</label><br><br>
+        <input type="tel" id="pno" name="Phone Number" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+        <small>Format: 123-45-678</small><br><br>
+        <input type="submit" value="Submit"><br>
+        <br><hr><br>
+    </form>
 </body>
 </html>
