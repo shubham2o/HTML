@@ -517,6 +517,21 @@
      </form>
      <p><b>Note:</b> The input type="image" sends the X and Y coordinates of the 
      click that activated the image button.</p>
-     <br><br>
+     <br><hr><br>
+     <!----------------------------------------------------
+     --------------INPUT FORM* ATTRIBUTE-------------------
+     ----------------------------------------------------->
+     <h1>The input form attribute</h1>
+     <p>The form attribute specifies the form an input element belongs to.</p>
+     <form action="action_page.php" id="form1">
+         <label for="Fname">First name:</label>
+         <input type="text" id="Fname" name="First name"><br><br>
+         <input type="submit" value="Submit">
+     </form>
+     <p>The "Last name" field below is outside the form element, but still part 
+         of the form.</p>
+         <label for="Lname">Last name:</label>
+         <input type="text" id="Lname" name="Last name" form="form1">
+     <br><hr><br>
  </body>
  </html>
