@@ -122,63 +122,63 @@
          <input type="submit">
      </form>
      <br><hr><br>
-    <!----------------------------------------------------
-    --------------------TEXT AREA-------------------------
-    ----------------------------------------------------->
-    <h2>Textarea</h2>
-    <p>The textarea element defines a multi-line input field.</p>
-    <form action="action_page.php">
-        <textarea name="message" rows="10" cols="30" style="width:330px;height:130px;">The cat was playing in the garden.</textarea>
-        <br><br>
-        <input type="submit">
-    </form>
-    <br><hr><br>
-    <!----------------------------------------------------
-    ------------------BUTTON ELEMENT----------------------
-    ----------------------------------------------------->
-    <h2>The button Element</h2>
-    <form>
-        <button type="button" onclick="alert('Hello World!')">Click Me! (using Button type attri.)</button><br><br>
-        <input type="button" onclick="alert('Hello World!')" value="Click Me! (using Input type attri.)">
-    </form>
-    <br><hr><br>
-    <!----------------------------------------------------
-    --------------FIELDSET & LEGEND ELEMENT---------------
-    ----------------------------------------------------->
-    <h2>Grouping Form Data with Fieldset</h2>
-    <p>
-        The fieldset element is used to group related data in a form,
-        and the legend element defines a caption for the fieldset element.
-    </p>
-    <form action="action_page.php">
-        <fieldset style="background-color:navajowhite;">
-            <legend style="color:black;;">Personalia :</legend>
-            <label for="Fname">First name:</label><br>
-            <input type="text" id="Fname" name="First name" value=""><br><br>
-            <label for="Lname">Last name:</label><br>
-            <input type="text" id="Lname" name="Last name" value=""><br><br>
-            <input type="submit">
-        </fieldset>
-    </form>
-    <br><hr><br>
-    <!----------------------------------------------------
-    ----------------------DATA ELEMENT--------------------
-    ----------------------------------------------------->
-    <h2>The datalist Element</h2>
-    <p>The datalist element specifies a list of pre-defined options for an input element.</p><br>
-    <form action="action_page.php">
-        <input list="browsers" name="browser">
-        <datalist id="browsers">
-            <option value="Internet Explorer">
-            <option value="Google Chrome">
-            <option value="Mozilla Firefox">
-            <option value="Opera">
-            <option value="Safari">
-        </datalist>
-        <input type="submit">
-    </form>
-    <p><strong>Note:</strong> The datalist tag is not supported in Safari prior version 12.1</p>
-    <br><hr><br>
+     <!----------------------------------------------------
+     --------------------TEXT AREA-------------------------
+     ----------------------------------------------------->
+     <h2>Textarea</h2>
+     <p>The textarea element defines a multi-line input field.</p>
+     <form action="action_page.php">
+         <textarea name="message" rows="10" cols="30" style="width:330px;height:130px;">The cat was playing in the garden.</textarea>
+         <br><br>
+         <input type="submit">
+     </form>
+     <br><hr><br>
+     <!----------------------------------------------------
+     ------------------BUTTON ELEMENT----------------------
+     ----------------------------------------------------->
+     <h2>The button Element</h2>
+     <form>
+         <button type="button" onclick="alert('Hello World!')">Click Me! (using Button type attri.)</button><br><br>
+         <input type="button" onclick="alert('Hello World!')" value="Click Me! (using Input type attri.)">
+     </form>
+     <br><hr><br>
+     <!----------------------------------------------------
+     --------------FIELDSET & LEGEND ELEMENT---------------
+     ----------------------------------------------------->
+     <h2>Grouping Form Data with Fieldset</h2>
+     <p>
+         The fieldset element is used to group related data in a form,
+         and the legend element defines a caption for the fieldset element.
+     </p>
+     <form action="action_page.php">
+         <fieldset style="background-color:navajowhite;">
+             <legend style="color:black;;">Personalia :</legend>
+             <label for="Fname">First name:</label><br>
+             <input type="text" id="Fname" name="First name" value=""><br><br>
+             <label for="Lname">Last name:</label><br>
+             <input type="text" id="Lname" name="Last name" value=""><br><br>
+             <input type="submit">
+         </fieldset>
+     </form>
+     <br><hr><br>
+     <!----------------------------------------------------
+     ----------------------DATA ELEMENT--------------------
+     ----------------------------------------------------->
+     <h2>The datalist Element</h2>
+     <p>The datalist element specifies a list of pre-defined options for an input element.</p><br>
+     <form action="action_page.php">
+         <input list="browsers" name="browser">
+         <datalist id="browsers">
+             <option value="Internet Explorer">
+             <option value="Google Chrome">
+             <option value="Mozilla Firefox">
+             <option value="Opera">
+             <option value="Safari">
+         </datalist>
+         <input type="submit">
+     </form>
+     <p><strong>Note:</strong> The datalist tag is not supported in Safari prior version 12.1</p>
+     <br><hr><br>
     <!----------------------------------------------------
     --------------------OUTPUT ELEMENT--------------------
     ----------------------------------------------------->
@@ -438,6 +438,19 @@
          <input type="submit" value="Submit">
          <p><strong>Note:</strong> type="week" is not supported in Firefox, Safari or 
              Internet Explorer 11 (or earlier).</p>
+     </form>
+     <br><hr><br>
+     <!----------------------------------------------------
+     ---------------READONLY ATTRIBUTE---------------------
+     ----------------------------------------------------->
+     <h1>The input readonly attribute</h1>
+     <p>The readonly attribute specifies that an input field should be 
+         read-only (cannot be changed):</p>
+     <form action="action_page.php">
+         <label for="fname">First Name:</label><br>
+         <input type="text" id="fname" value="Shubham" readonly><br><br>
+         <label for="lname">Last Name:</label><br>
+         <input type="text" id="lname" value=""><br><br>
      </form>
      <br><hr><br>
  </body>
