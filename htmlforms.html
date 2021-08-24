@@ -1,127 +1,127 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<!----------------------------------------------------
------------------------HEAD---------------------------
------------------------------------------------------>
-<head>
-    <title>FORMS | HTML</title>
-    <meta charset="utf-8" />
-    <meta name="keywords" content="HTML, CSS, JAVASCRIPT" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<!----------------------------------------------------
------------------------BODY---------------------------
------------------------------------------------------>
-<body>
-    <!----------------------------------------------------
+ <!DOCTYPE html>
+ <html lang="en-us">
+ <!----------------------------------------------------
+ -----------------------HEAD---------------------------
+ ----------------------------------------------------->
+ <head>
+     <title>FORMS | HTML</title>
+     <meta charset="utf-8" />
+     <meta name="keywords" content="HTML, CSS, JAVASCRIPT" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ </head>
+ <!----------------------------------------------------
+ -----------------------BODY---------------------------
+ ----------------------------------------------------->
+ <body>
+     <!----------------------------------------------------
      -------------------LABEL & TEXT----------------------
      ---------------------------------------------------->
-    <h2>Text input fields</h2>
-    <form>
-        <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" value=""><br><br>
-        <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" value=""><br><br>
-    </form>
-    <p>
-        Note that the form itself is not visible.
-    </p>
-    <p>
-        Also note that the default width of text input fields is 20 characters.
-    </p>
-    <br><hr><br>
-    <!----------------------------------------------------
+     <h2>Text input fields</h2>
+     <form>
+         <label for="fname">First Name:</label><br>
+         <input type="text" id="fname" value=""><br><br>
+         <label for="lname">Last Name:</label><br>
+         <input type="text" id="lname" value=""><br><br>
+     </form>
+     <p>
+         Note that the form itself is not visible.
+     </p>
+     <p>
+         Also note that the default width of text input fields is 20 characters.
+     </p>
+     <br><hr><br>
+     <!----------------------------------------------------
      ------------------RADIO BUTTONS----------------------
      ---------------------------------------------------->
-    <h2>Radio Buttons</h2>
-    <p>Choose your favourite Web language:</p>
-    <form>
-        <input type="radio" id="first" name="fav_lang" value="">
-        <label for="first">HTML</label><br>
-        <input type="radio" id="second" name="fav_lang" value="">
-        <label for="second">CSS</label><br>
-        <input type="radio" id="third" name="fav_lang" value="">
-        <label for="third">JavaScript</label><br>
-    </form>
-    <br><hr><br>
-    <!----------------------------------------------------
+     <h2>Radio Buttons</h2>
+     <p>Choose your favourite Web language:</p>
+     <form>
+         <input type="radio" id="first" name="fav_lang" value="">
+         <label for="first">HTML</label><br>
+         <input type="radio" id="second" name="fav_lang" value="">
+         <label for="second">CSS</label><br>
+         <input type="radio" id="third" name="fav_lang" value="">
+         <label for="third">JavaScript</label><br>
+     </form>
+     <br><hr><br>
+     <!----------------------------------------------------
      -------------------CHECKBOXES------------------------
      ---------------------------------------------------->
-    <h2>Checkboxes</h2>
-    <p>The <b>input type="checkbox" </b>defines a checkbox:</p>
-    <form>
-        <input type="checkbox" id="first" name="veh1" value="">
-        <label for="first">I have a bike</label><br>
-        <input type="checkbox" id="second" name="veh2" value="">
-        <label for="second">I have a car</label><br>
-        <input type="checkbox" id="third" name="veh3" value="">
-        <label for="third">I have a boat</label><br><br>
-        <input type="submit" value="submit">
-    </form>
-    <br><hr><br>
-    <!----------------------------------------------------
+     <h2>Checkboxes</h2>
+     <p>The <b>input type="checkbox" </b>defines a checkbox:</p>
+     <form>
+         <input type="checkbox" id="first" name="veh1" value="">
+         <label for="first">I have a bike</label><br>
+         <input type="checkbox" id="second" name="veh2" value="">
+         <label for="second">I have a car</label><br>
+         <input type="checkbox" id="third" name="veh3" value="">
+         <label for="third">I have a boat</label><br><br>
+         <input type="submit" value="submit">
+     </form>
+     <br><hr><br>
+     <!----------------------------------------------------
      ----------------SUBMIT BUTTON------------------------
      ---------------------------------------------------->
-    <iframe name="submit" width="75%" style="float:right;"></iframe>
-    <h2>Submit Button</h2>
-    <form action="action_page.php" target="submit" method="get">
-        <label for="firstname">First name:</label><br>
-        <input type="text" id="firstname" value="" name="firstname"><br><br>
-        <label for="lastname">Last Name:</label><br>
-        <input type="text" id="lastname" value="" name="lastname"><br><br>
-        <input type="submit" value="submit">
-    </form>
-    <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
-    <br><hr><br>
-    <!----------------------------------------------------
+     <iframe name="submit" width="75%" style="float:right;"></iframe>
+     <h2>Submit Button</h2>
+     <form action="action_page.php" target="submit" method="get">
+         <label for="firstname">First name:</label><br>
+         <input type="text" id="firstname" value="" name="firstname"><br><br>
+         <label for="lastname">Last Name:</label><br>
+         <input type="text" id="lastname" value="" name="lastname"><br><br>
+         <input type="submit" value="submit">
+     </form>
+     <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+     <br><hr><br>
+     <!----------------------------------------------------
      -----------------AUTOCOMPLETE------------------------
      ---------------------------------------------------->
-    <h2>Autocomplete Attribute</h2>
-    <form action="action_page.php" target="_blank" method="get" autocomplete="on">
-        <label for="firstname">First name:</label><br>
-        <input type="text" id="firstname" value="" name="firstname"><br><br>
-        <label for="lastname">Last Name:</label><br>
-        <input type="text" id="lastname" value="" name="lastname"><br><br>
-        <input type="submit" value="submit">
-    </form>
-    <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
-    <br><hr><br>
-    <!----------------------------------------------------
+     <h2>Autocomplete Attribute</h2>
+     <form action="action_page.php" target="_blank" method="get" autocomplete="on">
+         <label for="firstname">First name:</label><br>
+         <input type="text" id="firstname" value="" name="firstname"><br><br>
+         <label for="lastname">Last Name:</label><br>
+         <input type="text" id="lastname" value="" name="lastname"><br><br>
+         <input type="submit" value="submit">
+     </form>
+     <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+     <br><hr><br>
+     <!----------------------------------------------------
      -----------------SELECT ELEMENT----------------------
      ---------------------------------------------------->
-    <h2>Select Element</h2>
-    <p>The select element defines a drop-down list:</p>
-    <form action="action_page.php" target="_blank">
-        <label for="cars">Choose a car:</label>
-        <select id="cars" name="cars" size="4" multiple>
-            <optgroup label="A">
-                <option value="">volvo</option>
-            </optgroup>
-            <optgroup label="B">
-                <option value="">rolls royce</option>
-            </optgroup>
-            <optgroup label="C">
-                <option value="">audi</option>
-            </optgroup>
-            <optgroup label="D">
-                <option value="" selected>bmw</option>
-            </optgroup>
-            <optgroup label="E">
-                <option value="">mercedes</option>
-            </optgroup>
-            <optgroup label="F">
-                <option value="">jeep</option>
-            </optgroup>
-            <optgroup label="G">
-                <option value="">jaguar</option>
-            </optgroup>
-            <optgroup label="H">
-                <option value="">mustang</option>
-            </optgroup>
-        </select><br><br>
-        <input type="submit">
-    </form>
-    <br><hr><br>
+     <h2>Select Element</h2>
+     <p>The select element defines a drop-down list:</p>
+     <form action="action_page.php" target="_blank">
+         <label for="cars">Choose a car:</label>
+         <select id="cars" name="cars" size="4" multiple>
+             <optgroup label="A">
+                 <option value="">volvo</option>
+             </optgroup>
+             <optgroup label="B">
+                 <option value="">rolls royce</option>
+             </optgroup>
+             <optgroup label="C">
+                 <option value="">audi</option>
+             </optgroup>
+             <optgroup label="D">
+                 <option value="" selected>bmw</option>
+             </optgroup>
+             <optgroup label="E">
+                 <option value="">mercedes</option>
+             </optgroup>
+             <optgroup label="F">
+                 <option value="">jeep</option>
+             </optgroup>
+             <optgroup label="G">
+                 <option value="">jaguar</option>
+             </optgroup>
+             <optgroup label="H">
+                 <option value="">mustang</option>
+             </optgroup>
+         </select><br><br>
+         <input type="submit">
+     </form>
+     <br><hr><br>
     <!----------------------------------------------------
     --------------------TEXT AREA-------------------------
     ----------------------------------------------------->
@@ -333,71 +333,86 @@
         but the data is sent when the form is submitted.
     </p>
     <br><hr><br>
-    <!----------------------------------------------------
-    ------------------INPUT TYPE MONTH--------------------
-    ----------------------------------------------------->
-    <h2>Month Field</h2>
-    <p>The <strong>input type="month"</strong> allows the user to select a month and year.</p>
-    <form action="action_page.php">
-        <label for="bday">Birthday (month and year):</label>
-        <input type="month" id="bday" name="Birthday (month and year)"><br>
-        <input type="submit" value="Submit">
-    </form>
-    <p>
-        <strong>Note:</strong> type="month" is not supported in Firefox, Safari,
-        or Internet Explorer 11 (or earlier).
-    </p>
-    <br><hr><br>
-    <!----------------------------------------------------
-    ------------------INPUT TYPE NUMBER-------------------
-    ----------------------------------------------------->
-    <h2>Number Field</h2>
-    <p>The <strong>input type="number"</strong> defines a numeric input field.</p>
-    <p>You can use the min and max attributes to add numeric restrictions in the input field:</p>
-    <form action="action_page.php">
-        <label for="qty">Quantity (between 1 and 5):</label>
-        <input type="number" id="qty" name="Quantity" min="1" max="5">
-        <input type="submit" name="Submit">
-    </form>
-    <br><hr><br>
-    <!----------------------------------------------------
-    ------------------INPUT TYPE RANGE--------------------
-    ----------------------------------------------------->
-    <h2>Range Field</h2>
-    <p>
-        Depending on browser support:
-        The input type "range" can be displayed as a slider control.
-    </p>
-    <form action="action_page.php">
-        <label for="vlm">Volume (between 0 and 50):</label>
-        <input type="range" id="vlm" name="Volume" min="0" max="50"><br><br>
-        <input type="submit" name="Submit">
-    </form>
-    <br><hr><br>
-    <!----------------------------------------------------
-    -----------------INPUT TYPE SEARCH--------------------
-    ----------------------------------------------------->
-    <h2>Search Field</h2>
-    <p>The <strong>input type="search"</strong> is used for search fields 
-    (behaves like a regular text field):</p>
-    <form action="action_pag.php">
-        <label for="srch">Search Google:</label>
-        <input type="search" id="srch" name="Search Google">
-        <input type="submit" value="Submit">
-    </form>
-    <br><hr><br>
-    <!----------------------------------------------------
-    -----------------INPUT TYPE TEL-----------------------
-    ----------------------------------------------------->
-    <h2>Telephone Field</h2>
-    <p>The <strong>input type="tel"</strong> is used for input fields that 
-        should contain a telephone number:</p>
-    <form action="action_page.php">
-        <label for="pno">Enter a phone number:</label><br><br>
-        <input type="tel" id="pno" name="Phone Number" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
-        <small>Format: 123-45-678</small><br><br>
-        <input type="submit" value="Submit"><br>
-        <br><hr><br>
-    </form>
+     <!----------------------------------------------------
+     ------------------INPUT TYPE MONTH--------------------
+     ----------------------------------------------------->
+     <h2>Month Field</h2>
+     <p>The <strong>input type="month"</strong> allows the user to select a month and year.</p>
+     <form action="action_page.php">
+         <label for="bday">Birthday (month and year):</label>
+         <input type="month" id="bday" name="Birthday (month and year)"><br>
+         <input type="submit" value="Submit">
+     </form>
+     <p>
+         <strong>Note:</strong> type="month" is not supported in Firefox, Safari,
+         or Internet Explorer 11 (or earlier).
+     </p>
+     <br><hr><br>
+     <!----------------------------------------------------
+     ------------------INPUT TYPE NUMBER-------------------
+     ----------------------------------------------------->
+     <h2>Number Field</h2>
+     <p>The <strong>input type="number"</strong> defines a numeric input field.</p>
+     <p>You can use the min and max attributes to add numeric restrictions in the input field:</p>
+     <form action="action_page.php">
+         <label for="qty">Quantity (between 1 and 5):</label>
+         <input type="number" id="qty" name="Quantity" min="1" max="5">
+         <input type="submit" name="Submit">
+     </form>
+     <br><hr><br>
+     <!----------------------------------------------------
+     ------------------INPUT TYPE RANGE--------------------
+     ----------------------------------------------------->
+     <h2>Range Field</h2>
+     <p>
+         Depending on browser support:
+         The input type "range" can be displayed as a slider control.
+     </p>
+     <form action="action_page.php">
+         <label for="vlm">Volume (between 0 and 50):</label>
+         <input type="range" id="vlm" name="Volume" min="0" max="50"><br><br>
+         <input type="submit" name="Submit">
+     </form>
+     <br><hr><br>
+     <!----------------------------------------------------
+     -----------------INPUT TYPE SEARCH--------------------
+     ----------------------------------------------------->
+     <h2>Search Field</h2>
+     <p>The <strong>input type="search"</strong> is used for search fields 
+     (behaves like a regular text field):</p>
+     <form action="action_pag.php">
+         <label for="srch">Search Google:</label>
+         <input type="search" id="srch" name="Search Google">
+         <input type="submit" value="Submit">
+     </form>
+     <br><hr><br>
+     <!----------------------------------------------------
+     -----------------INPUT TYPE TEL-----------------------
+     ----------------------------------------------------->
+     <h2>Telephone Field</h2>
+     <p>The <strong>input type="tel"</strong> is used for input fields that 
+         should contain a telephone number:</p>
+     <form action="action_page.php">
+         <label for="pno">Enter a phone number:</label><br><br>
+         <input type="tel" id="pno" name="Phone Number" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+         <small>Format: 123-45-678</small><br><br>
+         <input type="submit" value="Submit"><br>
+         <br><hr><br>
+     <!----------------------------------------------------
+     -----------------INPUT TYPE TIME----------------------
+     ----------------------------------------------------->
+     <h1>Show a Time Input Control</h1>
+     <p>The <strong>input type="time"</strong> allows the user 
+         to select a time (no time zone):</p>
+     <p>If the browser supports it, a time picker pops up 
+         when entering the input field.</p>  
+     <form action="action_page.php">
+         <label for="time">Select a time:</label>
+         <input type="time" id="time" name="Time">
+         <input type="submit" value="Submit"><br>
+         <p><strong>Note:</strong> type="time" is not supported in Safari or 
+             Internet Explorer 12 (or earlier).</p>
+     </form>
+     <br><hr><br>
 </body>
 </html>
