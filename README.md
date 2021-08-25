@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  <!DOCTYPE html>
  <html lang="en-us">
  <!---------HEAD(TITLE)-------->
@@ -814,3 +815,6 @@
  <!----------BODY------------->
  </body>
  </html>
+=======
+
+>>>>>>> 0aade97c510eefd55770b83d5d6e735c3568e757
