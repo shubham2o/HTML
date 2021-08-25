@@ -76,15 +76,6 @@
              }
          </script>
          <!-----------------------------------------------------
-         -------------------HEADING 2-7-------------------------
-         ------------------------------------------------------>
-         <h1 title="MVP" style="color:purple;background-color:pink;padding: 50px;margin:60px;border:6px solid red;"><div style="background-image: url('back_blue.jpeg');height:100%;">PINK FLOYD</h1>
-         <h2 title="GOAT" style="color:lightyellow;background-color:green;padding: 50px;margin: 120px;border:6px solid red;"><div style="background-image: url('back_blue.jpeg');height: 100%;">PINK FLOYD</h2>
-         <h3 title="SPLASH" style="color:darkblue;background-color:pink;padding: 50px;margin: 180px;border:6px solid red;"><div style="background-image: url('back_blue.jpeg'); height: 100%;">PINK FLOYD</h3>
-         <h4 title="SC30" style="color:pink;background-color:green;padding: 50px;margin: 240px;border:6px solid red;"><div style="background-image: url('back_blue.jpeg');height: 100%;">PINK FLOYD</h4>
-         <h5 title="FMVP" style=" color:purple;background-color:pink;padding: 50px;margin: 300px;border:6px solid red;"><div style="background-image: url('back_blue.jpeg'); height: 100%;">PINK FLOYD</h5>
-         <h6 style="color:orange;background-color:green;padding: 50px;margin: 360px;border:6px solid red;"><div style="background-image: url('back_blue.jpeg');height: 100%;">PINK FLOYD</h6>
-         <!-----------------------------------------------------
          -------------------BACK ON TOP-------------------------
          ------------------------------------------------------>
          <a href="#BackOnTop"><b style="color:red; float:right; font-size:30px; border:3px solid red; margin:10px; background-color:darkgray;">Click here to get back on top &uarr; </b></a>
