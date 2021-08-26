@@ -25,6 +25,6 @@
     <hr size="3" noshade>
     <p>By:- <a href="https://github.com/shubham2o" title="Shubham's Github">Shubham Sharma</a></p>
     <hr size="3" noshade>
-    <a href="https://github.com/shubham2o/HTML.git" title="HTML's Github">Click  here to see all HTML documents.</a>
+    <a href="https://github.com/shubham2o/HTML.git" title="HTML's Github">Click  here to see all HTML documents</a>
 </body>
 </html>
