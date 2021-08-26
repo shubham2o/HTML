@@ -1,3 +1,4 @@
+<html>
    <head>
        <title>Home</title>
        <style>
@@ -14,7 +15,8 @@
        </style>
     </head>
     <body>
-        <h1>HTML></h1>
+        <h1>HTML</h1>
         <hr size="3" noshade>
         <p><b>via W3Schools</b></p>
     </body>
+ </html>
