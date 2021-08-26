@@ -85,3 +85,27 @@
                  alert("You clicked the Spotify logo!");
              }
          </script>
+         <!------------------------------------------------------
+         -----------------PLAYER'S FACE--------------------------
+         ------------------------------------------------------->
+         <p style="color:purple;border:3px solid red;float:left;font-size:30px;background-color:white;"><b>Click on the player's face to know about them</b></p><br>
+         <br><br>
+         <!------------------------------------------------------
+         ---------------------NBA--------------------------------
+         ------------------------------------------------------->
+         <img src="nba.jpg" alt="NBA" usemap="#nba">
+         <map name="nba">
+             <area shape="rect" coords="391,227,262,8" href="davis.html" target="_blank">
+             <area shape="rect" coords="121,200,242,446" href="bosh.html" target="_blank">
+             <area shape="rect" coords="98,484,228,716" href="wade.html" target="_blank">
+             <area shape="rect" coords="328,489,462,718" href="kyrie.html" target="_blank">
+             <area shape="rect" coords="349,233,483,462" href="lebron.html" target="_blank">
+             <area shape="rect" coords="861,45,984,267" href="draymond.html" target="_blank">
+             <area shape="rect" coords="734,224,865,445" href="durant.html" target="_blank">
+             <area shape="rect" coords="987,260,1118,481" href="klay.html" target="_blank">
+             <area shape="rect" coords="970,497,1110,697" href="westbrook.html" target="_blank">
+             <area shape="rect" coords="738,489,869,710" href="curry.html" target="_blank">
+         </map>
+         <br><br><br><hr><br><br>
+      </body>
+  </html>
