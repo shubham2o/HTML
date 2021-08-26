@@ -93,7 +93,7 @@
          <!------------------------------------------------------
          ---------------------NBA--------------------------------
          ------------------------------------------------------->
-         <img src="nba.jpg" alt="NBA" usemap="#nba" width="1200" height="900">
+         <img src="nba.jpg" alt="NBA" usemap="#nba" width="1200px" height="900px">
          <map name="nba">
              <area shape="rect" coords="391,227,262,8" href="davis.html" target="_blank">
              <area shape="rect" coords="121,200,242,446" href="bosh.html" target="_blank">
