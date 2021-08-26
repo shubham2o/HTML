@@ -1,3 +1,4 @@
+<html>
 <head>
    <title>Home</title>
    <style>
@@ -14,7 +15,13 @@
     </style>
 </head>   
 <body>
-    <h1>HTML</h1>
+    <h1><ins>HTML</ins></h1>
     <hr size="3" noshade>
-    <p><b>via W3Schools</b></p>
+    <p><strong>via</strong></p>
+    <p><strong>W3Schools</strong></p>
+    <br>
+    <p><strong>By:- Shubham Sharma</strong></p>
+    <hr size="3" noshade>
+    <a href="https://github.com/shubham2o/HTML.git" title="HTML's Github">Click  here to see all HTML documents.</a>
 </body>
+</html>
