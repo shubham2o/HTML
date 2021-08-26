@@ -4,18 +4,18 @@
    <style>
        h1, p, a {
        text-align:center;
-       border:3px dotted yellow;
+       font-family:arial black;
        }
        h1 {
-       font-size:80px;
+       font-size:120px;
        color:red;
        }
        p {
-       font-size:45px;
+       font-size:38px;
        color:black;
        }
        a {
-       font-size:45px;
+       font-size:38px;
        color:blue;
        }
     </style>
